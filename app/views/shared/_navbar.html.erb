@@ -1,30 +1,28 @@
 <header role="banner">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> 
-          <strong><%= link_to "ALPHA BLOG", root_path, class: "navbar-brand" %></strong>
-        </div>
-        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><%= link_to "Home", root_path %>
-            <span class="sr-only">(current)</span>              
-            </li>
-          </ul>
-            
-           
-                        
-          </ul> 
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Sign up", "" %></li>
-            <li><%= link_to "Sign in", "" %></li>
-            <li><%= link_to "Sign out", "" %></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <strong><%= link_to "ALPHA BLOG", root_path, class: "navbar-brand" %></strong>
       </div>
-    </nav> 
-  </header>
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><%= link_to "Home", root_path %>
+          <li class="active"><%= link_to "About", "" %>
+          <span class="sr-only">(current)</span>              
+          </li>
+        </ul>                      
+       
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "Sign up", "" %></li>
+          <li><%= link_to "Sign in", "" %></li>
+          <li><%= link_to "Sign out", "" %></li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+</header>

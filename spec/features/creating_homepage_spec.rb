@@ -5,6 +5,6 @@ RSpec.feature "Creating homepage" do
     visit "/"
 
     expect(page).to have_content("ALPHA BLOG")
-    expect(page.status_code).to eq(200)        
+    expect(current_path).to eq(root_path)        
   end  
 end
