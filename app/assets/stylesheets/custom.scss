@@ -1,0 +1,19 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  padding-top: 22px;
+  padding-bottom:  22px;
+
+  background: #c2d6d6;
+  color: #80002a;
+}
+
+p {
+    color: #000000;
+    font-size: 16px
+}
+
+h2 {
+    color: #004d00;
+}

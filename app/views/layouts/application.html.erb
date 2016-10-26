@@ -10,6 +10,10 @@
      <p class="notice"><%= notice %></p>
      <p class="alert"><%= alert %></p>
   <body>
+
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/error_messages' %>
+
     <%= yield %>
   </body>
 </html>

@@ -1,1 +1,17 @@
-<h2>ALPHA BLOG</h2>
+<div class="text-center">
+   <h2><strong>Share your articles with your friends and family</strong></h2>
+   <hr>
+
+</div>
+  <div class="container">
+    <div class="row">
+      <% @articles.each do |article| %>
+        <div class="col-md-12 well member">          .
+          <h3><strong><%= article.title %></strong></h3>
+          <p><%= article.description %></p>   
+           <hr> 
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <hr>
