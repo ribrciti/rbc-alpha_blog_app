@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  
-  resources :dashboard, only: [:index, :about]
+
+  get "index", to: "dashboard#index"
+  get "about", to: "dashboard#about"
+
   resources :articles
   root to: 'articles#index' 
 end
